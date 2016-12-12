@@ -14,28 +14,40 @@
 		CF4E29871DFEA45500160F59 /* QuickstartApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CF4E29851DFEA45500160F59 /* QuickstartApp.xcdatamodeld */; };
 		CF4E29891DFEA45500160F59 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF4E29881DFEA45500160F59 /* Assets.xcassets */; };
 		CF4E298C1DFEA45500160F59 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF4E298A1DFEA45500160F59 /* LaunchScreen.storyboard */; };
-		CF4E29971DFEA45500160F59 /* QuickstartAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CF4E29961DFEA45500160F59 /* QuickstartAppTests.m */; };
-		CF4E29A21DFEA45500160F59 /* QuickstartAppUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CF4E29A11DFEA45500160F59 /* QuickstartAppUITests.m */; };
+		CF69CCFC1DFECEB5000BD80A /* AppAuthExampleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF69CCFB1DFECEB5000BD80A /* AppAuthExampleViewController.m */; };
+		CF69CD381DFECEEE000BD80A /* OIDAuthorizationService+IOS.m in Sources */ = {isa = PBXBuildFile; fileRef = CF69CD011DFECEEE000BD80A /* OIDAuthorizationService+IOS.m */; };
+		CF69CD391DFECEEE000BD80A /* OIDAuthorizationUICoordinatorIOS.m in Sources */ = {isa = PBXBuildFile; fileRef = CF69CD031DFECEEE000BD80A /* OIDAuthorizationUICoordinatorIOS.m */; };
+		CF69CD3A1DFECEEE000BD80A /* OIDAuthState+IOS.m in Sources */ = {isa = PBXBuildFile; fileRef = CF69CD051DFECEEE000BD80A /* OIDAuthState+IOS.m */; };
+		CF69CD401DFECEEE000BD80A /* OIDAuthorizationRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = CF69CD131DFECEEE000BD80A /* OIDAuthorizationRequest.m */; };
+		CF69CD411DFECEEE000BD80A /* OIDAuthorizationResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = CF69CD151DFECEEE000BD80A /* OIDAuthorizationResponse.m */; };
+		CF69CD421DFECEEE000BD80A /* OIDAuthorizationService.m in Sources */ = {isa = PBXBuildFile; fileRef = CF69CD171DFECEEE000BD80A /* OIDAuthorizationService.m */; };
+		CF69CD431DFECEEE000BD80A /* OIDAuthState.m in Sources */ = {isa = PBXBuildFile; fileRef = CF69CD1A1DFECEEE000BD80A /* OIDAuthState.m */; };
+		CF69CD441DFECEEE000BD80A /* OIDError.m in Sources */ = {isa = PBXBuildFile; fileRef = CF69CD1F1DFECEEE000BD80A /* OIDError.m */; };
+		CF69CD451DFECEEE000BD80A /* OIDErrorUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = CF69CD211DFECEEE000BD80A /* OIDErrorUtilities.m */; };
+		CF69CD461DFECEEE000BD80A /* OIDFieldMapping.m in Sources */ = {isa = PBXBuildFile; fileRef = CF69CD231DFECEEE000BD80A /* OIDFieldMapping.m */; };
+		CF69CD471DFECEEE000BD80A /* OIDGrantTypes.m in Sources */ = {isa = PBXBuildFile; fileRef = CF69CD251DFECEEE000BD80A /* OIDGrantTypes.m */; };
+		CF69CD481DFECEEE000BD80A /* OIDResponseTypes.m in Sources */ = {isa = PBXBuildFile; fileRef = CF69CD271DFECEEE000BD80A /* OIDResponseTypes.m */; };
+		CF69CD491DFECEEE000BD80A /* OIDScopes.m in Sources */ = {isa = PBXBuildFile; fileRef = CF69CD291DFECEEE000BD80A /* OIDScopes.m */; };
+		CF69CD4A1DFECEEE000BD80A /* OIDScopeUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = CF69CD2B1DFECEEE000BD80A /* OIDScopeUtilities.m */; };
+		CF69CD4B1DFECEEE000BD80A /* OIDServiceConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = CF69CD2D1DFECEEE000BD80A /* OIDServiceConfiguration.m */; };
+		CF69CD4C1DFECEEE000BD80A /* OIDServiceDiscovery.m in Sources */ = {isa = PBXBuildFile; fileRef = CF69CD2F1DFECEEE000BD80A /* OIDServiceDiscovery.m */; };
+		CF69CD4D1DFECEEE000BD80A /* OIDTokenRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = CF69CD311DFECEEE000BD80A /* OIDTokenRequest.m */; };
+		CF69CD4E1DFECEEE000BD80A /* OIDTokenResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = CF69CD331DFECEEE000BD80A /* OIDTokenResponse.m */; };
+		CF69CD4F1DFECEEE000BD80A /* OIDTokenUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = CF69CD351DFECEEE000BD80A /* OIDTokenUtilities.m */; };
+		CF69CD501DFECEEE000BD80A /* OIDURLQueryComponent.m in Sources */ = {isa = PBXBuildFile; fileRef = CF69CD371DFECEEE000BD80A /* OIDURLQueryComponent.m */; };
+		CF69CD521DFECFAA000BD80A /* SafariServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF69CD511DFECFAA000BD80A /* SafariServices.framework */; };
+		CF69CD541DFECFB3000BD80A /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF69CD531DFECFB3000BD80A /* Security.framework */; };
+		CF69CD561DFED1CB000BD80A /* AppAuthExampleViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CF69CD551DFED1CB000BD80A /* AppAuthExampleViewController.xib */; };
+		D7D71BAA59807E2B379A136F /* libPods-QuickstartApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BF2385F3A2536EA4B006DE8B /* libPods-QuickstartApp.a */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		CF4E29931DFEA45500160F59 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = CF4E296E1DFEA45500160F59 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = CF4E29751DFEA45500160F59;
-			remoteInfo = QuickstartApp;
-		};
-		CF4E299E1DFEA45500160F59 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = CF4E296E1DFEA45500160F59 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = CF4E29751DFEA45500160F59;
-			remoteInfo = QuickstartApp;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
+		05AC09B99498A149CBCCF0BE /* Pods-QuickstartAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QuickstartAppTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-QuickstartAppTests/Pods-QuickstartAppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		0B99527A4A83BF95CFD1586D /* libPods-QuickstartAppTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-QuickstartAppTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2443F6D809AB6C2F96F83713 /* Pods-QuickstartApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QuickstartApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-QuickstartApp/Pods-QuickstartApp.release.xcconfig"; sourceTree = "<group>"; };
+		4EFA6E5B2DA383552A5B6253 /* libPods-QuickstartAppUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-QuickstartAppUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF2385F3A2536EA4B006DE8B /* libPods-QuickstartApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-QuickstartApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2631B83DC2934A51CFB0841 /* Pods-QuickstartAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QuickstartAppUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-QuickstartAppUITests/Pods-QuickstartAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		CF4E29761DFEA45500160F59 /* QuickstartApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QuickstartApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF4E297A1DFEA45500160F59 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		CF4E297C1DFEA45500160F59 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -47,12 +59,63 @@
 		CF4E29881DFEA45500160F59 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CF4E298B1DFEA45500160F59 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CF4E298D1DFEA45500160F59 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		CF4E29921DFEA45500160F59 /* QuickstartAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QuickstartAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF4E29961DFEA45500160F59 /* QuickstartAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QuickstartAppTests.m; sourceTree = "<group>"; };
 		CF4E29981DFEA45500160F59 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		CF4E299D1DFEA45500160F59 /* QuickstartAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QuickstartAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF4E29A11DFEA45500160F59 /* QuickstartAppUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QuickstartAppUITests.m; sourceTree = "<group>"; };
 		CF4E29A31DFEA45500160F59 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF69CCFA1DFECEB5000BD80A /* AppAuthExampleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppAuthExampleViewController.h; sourceTree = "<group>"; };
+		CF69CCFB1DFECEB5000BD80A /* AppAuthExampleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppAuthExampleViewController.m; sourceTree = "<group>"; };
+		CF69CCFE1DFECEEE000BD80A /* AppAuth.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppAuth.h; sourceTree = "<group>"; };
+		CF69CD001DFECEEE000BD80A /* OIDAuthorizationService+IOS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "OIDAuthorizationService+IOS.h"; sourceTree = "<group>"; };
+		CF69CD011DFECEEE000BD80A /* OIDAuthorizationService+IOS.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "OIDAuthorizationService+IOS.m"; sourceTree = "<group>"; };
+		CF69CD021DFECEEE000BD80A /* OIDAuthorizationUICoordinatorIOS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OIDAuthorizationUICoordinatorIOS.h; sourceTree = "<group>"; };
+		CF69CD031DFECEEE000BD80A /* OIDAuthorizationUICoordinatorIOS.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OIDAuthorizationUICoordinatorIOS.m; sourceTree = "<group>"; };
+		CF69CD041DFECEEE000BD80A /* OIDAuthState+IOS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "OIDAuthState+IOS.h"; sourceTree = "<group>"; };
+		CF69CD051DFECEEE000BD80A /* OIDAuthState+IOS.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "OIDAuthState+IOS.m"; sourceTree = "<group>"; };
+		CF69CD121DFECEEE000BD80A /* OIDAuthorizationRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OIDAuthorizationRequest.h; sourceTree = "<group>"; };
+		CF69CD131DFECEEE000BD80A /* OIDAuthorizationRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OIDAuthorizationRequest.m; sourceTree = "<group>"; };
+		CF69CD141DFECEEE000BD80A /* OIDAuthorizationResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OIDAuthorizationResponse.h; sourceTree = "<group>"; };
+		CF69CD151DFECEEE000BD80A /* OIDAuthorizationResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OIDAuthorizationResponse.m; sourceTree = "<group>"; };
+		CF69CD161DFECEEE000BD80A /* OIDAuthorizationService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OIDAuthorizationService.h; sourceTree = "<group>"; };
+		CF69CD171DFECEEE000BD80A /* OIDAuthorizationService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OIDAuthorizationService.m; sourceTree = "<group>"; };
+		CF69CD181DFECEEE000BD80A /* OIDAuthorizationUICoordinator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OIDAuthorizationUICoordinator.h; sourceTree = "<group>"; };
+		CF69CD191DFECEEE000BD80A /* OIDAuthState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OIDAuthState.h; sourceTree = "<group>"; };
+		CF69CD1A1DFECEEE000BD80A /* OIDAuthState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OIDAuthState.m; sourceTree = "<group>"; };
+		CF69CD1B1DFECEEE000BD80A /* OIDAuthStateChangeDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OIDAuthStateChangeDelegate.h; sourceTree = "<group>"; };
+		CF69CD1C1DFECEEE000BD80A /* OIDAuthStateErrorDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OIDAuthStateErrorDelegate.h; sourceTree = "<group>"; };
+		CF69CD1D1DFECEEE000BD80A /* OIDDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OIDDefines.h; sourceTree = "<group>"; };
+		CF69CD1E1DFECEEE000BD80A /* OIDError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OIDError.h; sourceTree = "<group>"; };
+		CF69CD1F1DFECEEE000BD80A /* OIDError.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OIDError.m; sourceTree = "<group>"; };
+		CF69CD201DFECEEE000BD80A /* OIDErrorUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OIDErrorUtilities.h; sourceTree = "<group>"; };
+		CF69CD211DFECEEE000BD80A /* OIDErrorUtilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OIDErrorUtilities.m; sourceTree = "<group>"; };
+		CF69CD221DFECEEE000BD80A /* OIDFieldMapping.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OIDFieldMapping.h; sourceTree = "<group>"; };
+		CF69CD231DFECEEE000BD80A /* OIDFieldMapping.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OIDFieldMapping.m; sourceTree = "<group>"; };
+		CF69CD241DFECEEE000BD80A /* OIDGrantTypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OIDGrantTypes.h; sourceTree = "<group>"; };
+		CF69CD251DFECEEE000BD80A /* OIDGrantTypes.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OIDGrantTypes.m; sourceTree = "<group>"; };
+		CF69CD261DFECEEE000BD80A /* OIDResponseTypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OIDResponseTypes.h; sourceTree = "<group>"; };
+		CF69CD271DFECEEE000BD80A /* OIDResponseTypes.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OIDResponseTypes.m; sourceTree = "<group>"; };
+		CF69CD281DFECEEE000BD80A /* OIDScopes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OIDScopes.h; sourceTree = "<group>"; };
+		CF69CD291DFECEEE000BD80A /* OIDScopes.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OIDScopes.m; sourceTree = "<group>"; };
+		CF69CD2A1DFECEEE000BD80A /* OIDScopeUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OIDScopeUtilities.h; sourceTree = "<group>"; };
+		CF69CD2B1DFECEEE000BD80A /* OIDScopeUtilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OIDScopeUtilities.m; sourceTree = "<group>"; };
+		CF69CD2C1DFECEEE000BD80A /* OIDServiceConfiguration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OIDServiceConfiguration.h; sourceTree = "<group>"; };
+		CF69CD2D1DFECEEE000BD80A /* OIDServiceConfiguration.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OIDServiceConfiguration.m; sourceTree = "<group>"; };
+		CF69CD2E1DFECEEE000BD80A /* OIDServiceDiscovery.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OIDServiceDiscovery.h; sourceTree = "<group>"; };
+		CF69CD2F1DFECEEE000BD80A /* OIDServiceDiscovery.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OIDServiceDiscovery.m; sourceTree = "<group>"; };
+		CF69CD301DFECEEE000BD80A /* OIDTokenRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OIDTokenRequest.h; sourceTree = "<group>"; };
+		CF69CD311DFECEEE000BD80A /* OIDTokenRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OIDTokenRequest.m; sourceTree = "<group>"; };
+		CF69CD321DFECEEE000BD80A /* OIDTokenResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OIDTokenResponse.h; sourceTree = "<group>"; };
+		CF69CD331DFECEEE000BD80A /* OIDTokenResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OIDTokenResponse.m; sourceTree = "<group>"; };
+		CF69CD341DFECEEE000BD80A /* OIDTokenUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OIDTokenUtilities.h; sourceTree = "<group>"; };
+		CF69CD351DFECEEE000BD80A /* OIDTokenUtilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OIDTokenUtilities.m; sourceTree = "<group>"; };
+		CF69CD361DFECEEE000BD80A /* OIDURLQueryComponent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OIDURLQueryComponent.h; sourceTree = "<group>"; };
+		CF69CD371DFECEEE000BD80A /* OIDURLQueryComponent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OIDURLQueryComponent.m; sourceTree = "<group>"; };
+		CF69CD511DFECFAA000BD80A /* SafariServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SafariServices.framework; path = System/Library/Frameworks/SafariServices.framework; sourceTree = SDKROOT; };
+		CF69CD531DFECFB3000BD80A /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		CF69CD551DFED1CB000BD80A /* AppAuthExampleViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AppAuthExampleViewController.xib; sourceTree = "<group>"; };
+		D339A80E5A07901C6150502A /* Pods-QuickstartAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QuickstartAppTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-QuickstartAppTests/Pods-QuickstartAppTests.release.xcconfig"; sourceTree = "<group>"; };
+		D9E7968030FE88EC28F45591 /* Pods-QuickstartApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QuickstartApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-QuickstartApp/Pods-QuickstartApp.debug.xcconfig"; sourceTree = "<group>"; };
+		E235306D8610178E977644C5 /* Pods-QuickstartAppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QuickstartAppUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-QuickstartAppUITests/Pods-QuickstartAppUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,26 +123,40 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		CF4E298F1DFEA45500160F59 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		CF4E299A1DFEA45500160F59 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				CF69CD541DFECFB3000BD80A /* Security.framework in Frameworks */,
+				CF69CD521DFECFAA000BD80A /* SafariServices.framework in Frameworks */,
+				D7D71BAA59807E2B379A136F /* libPods-QuickstartApp.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		960B82963EEFBAFCDEC99384 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CF69CD531DFECFB3000BD80A /* Security.framework */,
+				CF69CD511DFECFAA000BD80A /* SafariServices.framework */,
+				BF2385F3A2536EA4B006DE8B /* libPods-QuickstartApp.a */,
+				0B99527A4A83BF95CFD1586D /* libPods-QuickstartAppTests.a */,
+				4EFA6E5B2DA383552A5B6253 /* libPods-QuickstartAppUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A4EEC6DF891EC390EF972DEB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D9E7968030FE88EC28F45591 /* Pods-QuickstartApp.debug.xcconfig */,
+				2443F6D809AB6C2F96F83713 /* Pods-QuickstartApp.release.xcconfig */,
+				05AC09B99498A149CBCCF0BE /* Pods-QuickstartAppTests.debug.xcconfig */,
+				D339A80E5A07901C6150502A /* Pods-QuickstartAppTests.release.xcconfig */,
+				C2631B83DC2934A51CFB0841 /* Pods-QuickstartAppUITests.debug.xcconfig */,
+				E235306D8610178E977644C5 /* Pods-QuickstartAppUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		CF4E296D1DFEA45400160F59 = {
 			isa = PBXGroup;
 			children = (
@@ -87,6 +164,8 @@
 				CF4E29951DFEA45500160F59 /* QuickstartAppTests */,
 				CF4E29A01DFEA45500160F59 /* QuickstartAppUITests */,
 				CF4E29771DFEA45500160F59 /* Products */,
+				A4EEC6DF891EC390EF972DEB /* Pods */,
+				960B82963EEFBAFCDEC99384 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -94,8 +173,6 @@
 			isa = PBXGroup;
 			children = (
 				CF4E29761DFEA45500160F59 /* QuickstartApp.app */,
-				CF4E29921DFEA45500160F59 /* QuickstartAppTests.xctest */,
-				CF4E299D1DFEA45500160F59 /* QuickstartAppUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -103,6 +180,10 @@
 		CF4E29781DFEA45500160F59 /* QuickstartApp */ = {
 			isa = PBXGroup;
 			children = (
+				CF69CCFD1DFECEEE000BD80A /* Source */,
+				CF69CCFA1DFECEB5000BD80A /* AppAuthExampleViewController.h */,
+				CF69CD551DFED1CB000BD80A /* AppAuthExampleViewController.xib */,
+				CF69CCFB1DFECEB5000BD80A /* AppAuthExampleViewController.m */,
 				CF4E297C1DFEA45500160F59 /* AppDelegate.h */,
 				CF4E297D1DFEA45500160F59 /* AppDelegate.m */,
 				CF4E297F1DFEA45500160F59 /* ViewController.h */,
@@ -143,6 +224,66 @@
 			path = QuickstartAppUITests;
 			sourceTree = "<group>";
 		};
+		CF69CCFD1DFECEEE000BD80A /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				CF69CCFE1DFECEEE000BD80A /* AppAuth.h */,
+				CF69CCFF1DFECEEE000BD80A /* iOS */,
+				CF69CD121DFECEEE000BD80A /* OIDAuthorizationRequest.h */,
+				CF69CD131DFECEEE000BD80A /* OIDAuthorizationRequest.m */,
+				CF69CD141DFECEEE000BD80A /* OIDAuthorizationResponse.h */,
+				CF69CD151DFECEEE000BD80A /* OIDAuthorizationResponse.m */,
+				CF69CD161DFECEEE000BD80A /* OIDAuthorizationService.h */,
+				CF69CD171DFECEEE000BD80A /* OIDAuthorizationService.m */,
+				CF69CD181DFECEEE000BD80A /* OIDAuthorizationUICoordinator.h */,
+				CF69CD191DFECEEE000BD80A /* OIDAuthState.h */,
+				CF69CD1A1DFECEEE000BD80A /* OIDAuthState.m */,
+				CF69CD1B1DFECEEE000BD80A /* OIDAuthStateChangeDelegate.h */,
+				CF69CD1C1DFECEEE000BD80A /* OIDAuthStateErrorDelegate.h */,
+				CF69CD1D1DFECEEE000BD80A /* OIDDefines.h */,
+				CF69CD1E1DFECEEE000BD80A /* OIDError.h */,
+				CF69CD1F1DFECEEE000BD80A /* OIDError.m */,
+				CF69CD201DFECEEE000BD80A /* OIDErrorUtilities.h */,
+				CF69CD211DFECEEE000BD80A /* OIDErrorUtilities.m */,
+				CF69CD221DFECEEE000BD80A /* OIDFieldMapping.h */,
+				CF69CD231DFECEEE000BD80A /* OIDFieldMapping.m */,
+				CF69CD241DFECEEE000BD80A /* OIDGrantTypes.h */,
+				CF69CD251DFECEEE000BD80A /* OIDGrantTypes.m */,
+				CF69CD261DFECEEE000BD80A /* OIDResponseTypes.h */,
+				CF69CD271DFECEEE000BD80A /* OIDResponseTypes.m */,
+				CF69CD281DFECEEE000BD80A /* OIDScopes.h */,
+				CF69CD291DFECEEE000BD80A /* OIDScopes.m */,
+				CF69CD2A1DFECEEE000BD80A /* OIDScopeUtilities.h */,
+				CF69CD2B1DFECEEE000BD80A /* OIDScopeUtilities.m */,
+				CF69CD2C1DFECEEE000BD80A /* OIDServiceConfiguration.h */,
+				CF69CD2D1DFECEEE000BD80A /* OIDServiceConfiguration.m */,
+				CF69CD2E1DFECEEE000BD80A /* OIDServiceDiscovery.h */,
+				CF69CD2F1DFECEEE000BD80A /* OIDServiceDiscovery.m */,
+				CF69CD301DFECEEE000BD80A /* OIDTokenRequest.h */,
+				CF69CD311DFECEEE000BD80A /* OIDTokenRequest.m */,
+				CF69CD321DFECEEE000BD80A /* OIDTokenResponse.h */,
+				CF69CD331DFECEEE000BD80A /* OIDTokenResponse.m */,
+				CF69CD341DFECEEE000BD80A /* OIDTokenUtilities.h */,
+				CF69CD351DFECEEE000BD80A /* OIDTokenUtilities.m */,
+				CF69CD361DFECEEE000BD80A /* OIDURLQueryComponent.h */,
+				CF69CD371DFECEEE000BD80A /* OIDURLQueryComponent.m */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		CF69CCFF1DFECEEE000BD80A /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CF69CD001DFECEEE000BD80A /* OIDAuthorizationService+IOS.h */,
+				CF69CD011DFECEEE000BD80A /* OIDAuthorizationService+IOS.m */,
+				CF69CD021DFECEEE000BD80A /* OIDAuthorizationUICoordinatorIOS.h */,
+				CF69CD031DFECEEE000BD80A /* OIDAuthorizationUICoordinatorIOS.m */,
+				CF69CD041DFECEEE000BD80A /* OIDAuthState+IOS.h */,
+				CF69CD051DFECEEE000BD80A /* OIDAuthState+IOS.m */,
+			);
+			path = iOS;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -150,9 +291,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CF4E29A61DFEA45500160F59 /* Build configuration list for PBXNativeTarget "QuickstartApp" */;
 			buildPhases = (
+				D0DBD50E830806BF803687F4 /* [CP] Check Pods Manifest.lock */,
 				CF4E29721DFEA45500160F59 /* Sources */,
 				CF4E29731DFEA45500160F59 /* Frameworks */,
 				CF4E29741DFEA45500160F59 /* Resources */,
+				1BE8BE72BA26C6D49D1E1372 /* [CP] Embed Pods Frameworks */,
+				EA8008E6EAC7D19D832BE40B /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -162,42 +306,6 @@
 			productName = QuickstartApp;
 			productReference = CF4E29761DFEA45500160F59 /* QuickstartApp.app */;
 			productType = "com.apple.product-type.application";
-		};
-		CF4E29911DFEA45500160F59 /* QuickstartAppTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = CF4E29A91DFEA45500160F59 /* Build configuration list for PBXNativeTarget "QuickstartAppTests" */;
-			buildPhases = (
-				CF4E298E1DFEA45500160F59 /* Sources */,
-				CF4E298F1DFEA45500160F59 /* Frameworks */,
-				CF4E29901DFEA45500160F59 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				CF4E29941DFEA45500160F59 /* PBXTargetDependency */,
-			);
-			name = QuickstartAppTests;
-			productName = QuickstartAppTests;
-			productReference = CF4E29921DFEA45500160F59 /* QuickstartAppTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		CF4E299C1DFEA45500160F59 /* QuickstartAppUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = CF4E29AC1DFEA45500160F59 /* Build configuration list for PBXNativeTarget "QuickstartAppUITests" */;
-			buildPhases = (
-				CF4E29991DFEA45500160F59 /* Sources */,
-				CF4E299A1DFEA45500160F59 /* Frameworks */,
-				CF4E299B1DFEA45500160F59 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				CF4E299F1DFEA45500160F59 /* PBXTargetDependency */,
-			);
-			name = QuickstartAppUITests;
-			productName = QuickstartAppUITests;
-			productReference = CF4E299D1DFEA45500160F59 /* QuickstartAppUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
@@ -210,17 +318,7 @@
 				TargetAttributes = {
 					CF4E29751DFEA45500160F59 = {
 						CreatedOnToolsVersion = 8.1;
-						ProvisioningStyle = Automatic;
-					};
-					CF4E29911DFEA45500160F59 = {
-						CreatedOnToolsVersion = 8.1;
-						ProvisioningStyle = Automatic;
-						TestTargetID = CF4E29751DFEA45500160F59;
-					};
-					CF4E299C1DFEA45500160F59 = {
-						CreatedOnToolsVersion = 8.1;
-						ProvisioningStyle = Automatic;
-						TestTargetID = CF4E29751DFEA45500160F59;
+						ProvisioningStyle = Manual;
 					};
 				};
 			};
@@ -238,8 +336,6 @@
 			projectRoot = "";
 			targets = (
 				CF4E29751DFEA45500160F59 /* QuickstartApp */,
-				CF4E29911DFEA45500160F59 /* QuickstartAppTests */,
-				CF4E299C1DFEA45500160F59 /* QuickstartAppUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -251,68 +347,95 @@
 			files = (
 				CF4E298C1DFEA45500160F59 /* LaunchScreen.storyboard in Resources */,
 				CF4E29891DFEA45500160F59 /* Assets.xcassets in Resources */,
+				CF69CD561DFED1CB000BD80A /* AppAuthExampleViewController.xib in Resources */,
 				CF4E29841DFEA45500160F59 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CF4E29901DFEA45500160F59 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		CF4E299B1DFEA45500160F59 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1BE8BE72BA26C6D49D1E1372 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-QuickstartApp/Pods-QuickstartApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D0DBD50E830806BF803687F4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		EA8008E6EAC7D19D832BE40B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-QuickstartApp/Pods-QuickstartApp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		CF4E29721DFEA45500160F59 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CF69CD4A1DFECEEE000BD80A /* OIDScopeUtilities.m in Sources */,
 				CF4E29811DFEA45500160F59 /* ViewController.m in Sources */,
+				CF69CD391DFECEEE000BD80A /* OIDAuthorizationUICoordinatorIOS.m in Sources */,
+				CF69CD421DFECEEE000BD80A /* OIDAuthorizationService.m in Sources */,
+				CF69CD4E1DFECEEE000BD80A /* OIDTokenResponse.m in Sources */,
+				CF69CD3A1DFECEEE000BD80A /* OIDAuthState+IOS.m in Sources */,
+				CF69CD401DFECEEE000BD80A /* OIDAuthorizationRequest.m in Sources */,
+				CF69CD411DFECEEE000BD80A /* OIDAuthorizationResponse.m in Sources */,
 				CF4E297E1DFEA45500160F59 /* AppDelegate.m in Sources */,
+				CF69CD461DFECEEE000BD80A /* OIDFieldMapping.m in Sources */,
+				CF69CD451DFECEEE000BD80A /* OIDErrorUtilities.m in Sources */,
+				CF69CD4C1DFECEEE000BD80A /* OIDServiceDiscovery.m in Sources */,
+				CF69CD471DFECEEE000BD80A /* OIDGrantTypes.m in Sources */,
+				CF69CD431DFECEEE000BD80A /* OIDAuthState.m in Sources */,
+				CF69CD381DFECEEE000BD80A /* OIDAuthorizationService+IOS.m in Sources */,
 				CF4E29871DFEA45500160F59 /* QuickstartApp.xcdatamodeld in Sources */,
+				CF69CD491DFECEEE000BD80A /* OIDScopes.m in Sources */,
+				CF69CD441DFECEEE000BD80A /* OIDError.m in Sources */,
+				CF69CCFC1DFECEB5000BD80A /* AppAuthExampleViewController.m in Sources */,
 				CF4E297B1DFEA45500160F59 /* main.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		CF4E298E1DFEA45500160F59 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				CF4E29971DFEA45500160F59 /* QuickstartAppTests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		CF4E29991DFEA45500160F59 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				CF4E29A21DFEA45500160F59 /* QuickstartAppUITests.m in Sources */,
+				CF69CD4F1DFECEEE000BD80A /* OIDTokenUtilities.m in Sources */,
+				CF69CD481DFECEEE000BD80A /* OIDResponseTypes.m in Sources */,
+				CF69CD501DFECEEE000BD80A /* OIDURLQueryComponent.m in Sources */,
+				CF69CD4D1DFECEEE000BD80A /* OIDTokenRequest.m in Sources */,
+				CF69CD4B1DFECEEE000BD80A /* OIDServiceConfiguration.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		CF4E29941DFEA45500160F59 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = CF4E29751DFEA45500160F59 /* QuickstartApp */;
-			targetProxy = CF4E29931DFEA45500160F59 /* PBXContainerItemProxy */;
-		};
-		CF4E299F1DFEA45500160F59 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = CF4E29751DFEA45500160F59 /* QuickstartApp */;
-			targetProxy = CF4E299E1DFEA45500160F59 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		CF4E29821DFEA45500160F59 /* Main.storyboard */ = {
@@ -374,7 +497,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -416,7 +539,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -426,9 +549,14 @@
 		};
 		CF4E29A71DFEA45500160F59 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D9E7968030FE88EC28F45591 /* Pods-QuickstartApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = QuickstartApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.example.QuickstartApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -437,58 +565,17 @@
 		};
 		CF4E29A81DFEA45500160F59 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2443F6D809AB6C2F96F83713 /* Pods-QuickstartApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = QuickstartApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.example.QuickstartApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Release;
-		};
-		CF4E29AA1DFEA45500160F59 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				INFOPLIST_FILE = QuickstartAppTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.example.QuickstartAppTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QuickstartApp.app/QuickstartApp";
-			};
-			name = Debug;
-		};
-		CF4E29AB1DFEA45500160F59 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				INFOPLIST_FILE = QuickstartAppTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.example.QuickstartAppTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QuickstartApp.app/QuickstartApp";
-			};
-			name = Release;
-		};
-		CF4E29AD1DFEA45500160F59 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				INFOPLIST_FILE = QuickstartAppUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.example.QuickstartAppUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_TARGET_NAME = QuickstartApp;
-			};
-			name = Debug;
-		};
-		CF4E29AE1DFEA45500160F59 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				INFOPLIST_FILE = QuickstartAppUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.example.QuickstartAppUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_TARGET_NAME = QuickstartApp;
 			};
 			name = Release;
 		};
@@ -511,22 +598,7 @@
 				CF4E29A81DFEA45500160F59 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-		};
-		CF4E29A91DFEA45500160F59 /* Build configuration list for PBXNativeTarget "QuickstartAppTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				CF4E29AA1DFEA45500160F59 /* Debug */,
-				CF4E29AB1DFEA45500160F59 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-		};
-		CF4E29AC1DFEA45500160F59 /* Build configuration list for PBXNativeTarget "QuickstartAppUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				CF4E29AD1DFEA45500160F59 /* Debug */,
-				CF4E29AE1DFEA45500160F59 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

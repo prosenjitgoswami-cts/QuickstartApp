@@ -8,6 +8,8 @@
 
 #import <UIKit/UIKit.h>
 #import <CoreData/CoreData.h>
+#import "AppAuthExampleViewController.h"
+#import "AppAuth.h"
 
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
 
@@ -17,6 +19,7 @@
 
 - (void)saveContext;
 
+@property(nonatomic, strong) id<OIDAuthorizationFlowSession> currentAuthorizationFlow;
 
 @end
 
